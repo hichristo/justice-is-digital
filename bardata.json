@@ -1,0 +1,380 @@
+[
+  {
+    "name": 1,
+    "dr_trips_2013": "Atlanta, GA",
+    "dr_trips_2012": 636550,
+    "dr_change": 623600,
+    "bus_trips_2013": 0.02,
+    "bus_trips_2012": 69855.83,
+    "bus_change": 77839.6
+  },
+  {
+    "name": 2,
+    "dr_trips_2013": "Austin, TX",
+    "dr_trips_2012": 647000,
+    "dr_change": 666100,
+    "bus_trips_2013": -0.03,
+    "bus_trips_2012": 33486.97,
+    "bus_change": 34814.4
+  },
+  {
+    "name": 3,
+    "dr_trips_2013": "Baltimore, MD",
+    "dr_trips_2012": 1663380,
+    "dr_change": 1488900,
+    "bus_trips_2013": 0.12,
+    "bus_trips_2012": 73568.35,
+    "bus_change": 74651.8
+  },
+  {
+    "name": 4,
+    "dr_trips_2013": "Boston, MA",
+    "dr_trips_2012": 2862660,
+    "dr_change": 2597000,
+    "bus_trips_2013": 0.1,
+    "bus_trips_2012": 116981.5,
+    "bus_change": 114954.8
+  },
+  {
+    "name": 5,
+    "dr_trips_2013": "Charlotte, NC",
+    "dr_trips_2012": 229150,
+    "dr_change": 234000,
+    "bus_trips_2013": -0.02,
+    "bus_trips_2012": 22152.3,
+    "bus_change": 20361
+  },
+  {
+    "name": 6,
+    "dr_trips_2013": "Chicago, IL",
+    "dr_trips_2012": 4810700,
+    "dr_change": 4171500,
+    "bus_trips_2013": 0.15,
+    "bus_trips_2012": 342297.97,
+    "bus_change": 336764
+  },
+  {
+    "name": 7,
+    "dr_trips_2013": "Cincinnati, OH",
+    "dr_trips_2012": 425230,
+    "dr_change": 421100,
+    "bus_trips_2013": 0.01,
+    "bus_trips_2012": 22394.77,
+    "bus_change": 22322.1
+  },
+  {
+    "name": 8,
+    "dr_trips_2013": "Cleveland, OH",
+    "dr_trips_2012": 800340,
+    "dr_change": 779900,
+    "bus_trips_2013": 0.03,
+    "bus_trips_2012": 37539.63,
+    "bus_change": 36386.2
+  },
+  {
+    "name": 9,
+    "dr_trips_2013": "Columbus, OH",
+    "dr_trips_2012": 259880,
+    "dr_change": 238300,
+    "bus_trips_2013": 0.09,
+    "bus_trips_2012": 18764.05,
+    "bus_change": 17034.9
+  },
+  {
+    "name": 10,
+    "dr_trips_2013": "Dallas, TX",
+    "dr_trips_2012": 1980670,
+    "dr_change": 1718600,
+    "bus_trips_2013": 0.15,
+    "bus_trips_2012": 43611.26,
+    "bus_change": 44240.3
+  },
+  {
+    "name": 11,
+    "dr_trips_2013": "Denver, CO",
+    "dr_trips_2012": 1135400,
+    "dr_change": 1172300,
+    "bus_trips_2013": -0.03,
+    "bus_trips_2012": 75954.77,
+    "bus_change": 76168.2
+  },
+  {
+    "name": 12,
+    "dr_trips_2013": "Detroit, MI",
+    "dr_trips_2012": 1038010,
+    "dr_change": 856300,
+    "bus_trips_2013": 0.21,
+    "bus_trips_2012": 46275.69,
+    "bus_change": 47995.2
+  },
+  {
+    "name": 13,
+    "dr_trips_2013": "Houston, TX",
+    "dr_trips_2012": 1831840,
+    "dr_change": 1719900,
+    "bus_trips_2013": 0.07,
+    "bus_trips_2012": 66451.03,
+    "bus_change": 66663.1
+  },
+  {
+    "name": 14,
+    "dr_trips_2013": "Indianapolis, IN",
+    "dr_trips_2012": 257370,
+    "dr_change": 250200,
+    "bus_trips_2013": 0.03,
+    "bus_trips_2012": 9254.94,
+    "bus_change": 8527.9
+  },
+  {
+    "name": 15,
+    "dr_trips_2013": "Jacksonville, FL",
+    "dr_trips_2012": 383740,
+    "dr_change": 369600,
+    "bus_trips_2013": 0.04,
+    "bus_trips_2012": 11719.91,
+    "bus_change": 10757.5
+  },
+  {
+    "name": 16,
+    "dr_trips_2013": "Kansas City, MO",
+    "dr_trips_2012": 602830,
+    "dr_change": 566200,
+    "bus_trips_2013": 0.06,
+    "bus_trips_2012": 16147.32,
+    "bus_change": 15101.9
+  },
+  {
+    "name": 17,
+    "dr_trips_2013": "Las Vegas, NV",
+    "dr_trips_2012": 1209120,
+    "dr_change": 1031800,
+    "bus_trips_2013": 0.17,
+    "bus_trips_2012": 55476.97,
+    "bus_change": 56382.3
+  },
+  {
+    "name": 18,
+    "dr_trips_2013": "Los Angeles, CA",
+    "dr_trips_2012": 7006510,
+    "dr_change": 7214300,
+    "bus_trips_2013": -0.03,
+    "bus_trips_2012": 541955.05,
+    "bus_change": 554560.1
+  },
+  {
+    "name": 19,
+    "dr_trips_2013": "Memphis, TN",
+    "dr_trips_2012": 243520,
+    "dr_change": 236000,
+    "bus_trips_2013": 0.03,
+    "bus_trips_2012": 9287.21,
+    "bus_change": 10114
+  },
+  {
+    "name": 20,
+    "dr_trips_2013": "Miami, FL",
+    "dr_trips_2012": 3192860,
+    "dr_change": 3214900,
+    "bus_trips_2013": -0.01,
+    "bus_trips_2012": 125753.27,
+    "bus_change": 119750.1
+  },
+  {
+    "name": 21,
+    "dr_trips_2013": "Milwaukee, WI",
+    "dr_trips_2012": 1082510,
+    "dr_change": 1304300,
+    "bus_trips_2013": -0.17,
+    "bus_trips_2012": 45358.16,
+    "bus_change": 43595.4
+  },
+  {
+    "name": 22,
+    "dr_trips_2013": "Minneapolis, MN",
+    "dr_trips_2012": 1983150,
+    "dr_change": 1917600,
+    "bus_trips_2013": 0.03,
+    "bus_trips_2012": 80638.03,
+    "bus_change": 78435.4
+  },
+  {
+    "name": 23,
+    "dr_trips_2013": "New York, NY",
+    "dr_trips_2012": 8610840,
+    "dr_change": 8309000,
+    "bus_trips_2013": 0.04,
+    "bus_trips_2012": 1190395.01,
+    "bus_change": 1230428.6
+  },
+  {
+    "name": 24,
+    "dr_trips_2013": "Orlando, FL",
+    "dr_trips_2012": 821170,
+    "dr_change": 749600,
+    "bus_trips_2013": 0.1,
+    "bus_trips_2012": 26996.16,
+    "bus_change": 24780.7
+  },
+  {
+    "name": 25,
+    "dr_trips_2013": "Philadelphia, PA",
+    "dr_trips_2012": 2982250,
+    "dr_change": 2964200,
+    "bus_trips_2013": 0.01,
+    "bus_trips_2012": 193134.74,
+    "bus_change": 187333.1
+  },
+  {
+    "name": 26,
+    "dr_trips_2013": "Phoenix, AZ",
+    "dr_trips_2012": 857260,
+    "dr_change": 926600,
+    "bus_trips_2013": -0.07,
+    "bus_trips_2012": 53845.28,
+    "bus_change": 54315.8
+  },
+  {
+    "name": 27,
+    "dr_trips_2013": "Pittsburgh, PA",
+    "dr_trips_2012": 1835180,
+    "dr_change": 1758500,
+    "bus_trips_2013": 0.04,
+    "bus_trips_2012": 55509.78,
+    "bus_change": 57697
+  },
+  {
+    "name": 28,
+    "dr_trips_2013": "Portland, OR",
+    "dr_trips_2012": 1289170,
+    "dr_change": 1307800,
+    "bus_trips_2013": -0.01,
+    "bus_trips_2012": 65298.29,
+    "bus_change": 67114.8
+  },
+  {
+    "name": 29,
+    "dr_trips_2013": "Providence, RI",
+    "dr_trips_2012": 866570,
+    "dr_change": 836900,
+    "bus_trips_2013": 0.04,
+    "bus_trips_2012": 20197.71,
+    "bus_change": 20298.5
+  },
+  {
+    "name": 30,
+    "dr_trips_2013": "Riverside, CA",
+    "dr_trips_2012": 1003760,
+    "dr_change": 1000300,
+    "bus_trips_2013": 0,
+    "bus_trips_2012": 22500.36,
+    "bus_change": 22067.3
+  },
+  {
+    "name": 31,
+    "dr_trips_2013": "Sacramento, CA",
+    "dr_trips_2012": 449710,
+    "dr_change": 382500,
+    "bus_trips_2013": 0.18,
+    "bus_trips_2012": 16613.57,
+    "bus_change": 21295.5
+  },
+  {
+    "name": 32,
+    "dr_trips_2013": "Salt Lake City, UT",
+    "dr_trips_2012": 565810,
+    "dr_change": 509700,
+    "bus_trips_2013": 0.11,
+    "bus_trips_2012": 21560.36,
+    "bus_change": 21716.9
+  },
+  {
+    "name": 33,
+    "dr_trips_2013": "San Antonio, TX",
+    "dr_trips_2012": 1051100,
+    "dr_change": 1054200,
+    "bus_trips_2013": 0,
+    "bus_trips_2012": 44157.54,
+    "bus_change": 41323.1
+  },
+  {
+    "name": 34,
+    "dr_trips_2013": "San Diego, CA",
+    "dr_trips_2012": 579110,
+    "dr_change": 548600,
+    "bus_trips_2013": 0.06,
+    "bus_trips_2012": 60062,
+    "bus_change": 59705.2
+  },
+  {
+    "name": 35,
+    "dr_trips_2013": "San Francisco, CA",
+    "dr_trips_2012": 2153120,
+    "dr_change": 2245600,
+    "bus_trips_2013": -0.04,
+    "bus_trips_2012": 170242.66,
+    "bus_change": 177021.6
+  },
+  {
+    "name": 36,
+    "dr_trips_2013": "San Jose, CA",
+    "dr_trips_2012": 824810,
+    "dr_change": 930200,
+    "bus_trips_2013": -0.11,
+    "bus_trips_2012": 31652.43,
+    "bus_change": 32210.8
+  },
+  {
+    "name": 37,
+    "dr_trips_2013": "San Juan, PR",
+    "dr_trips_2012": 114250,
+    "dr_change": 117000,
+    "bus_trips_2013": -0.02,
+    "bus_trips_2012": 11576.12,
+    "bus_change": 14236
+  },
+  {
+    "name": 38,
+    "dr_trips_2013": "Seattle, WA",
+    "dr_trips_2012": 2014470,
+    "dr_change": 2035600,
+    "bus_trips_2013": -0.01,
+    "bus_trips_2012": 109946.68,
+    "bus_change": 126658.8
+  },
+  {
+    "name": 39,
+    "dr_trips_2013": "St. Louis, MO",
+    "dr_trips_2012": 652120,
+    "dr_change": 635700,
+    "bus_trips_2013": 0.03,
+    "bus_trips_2012": 28347.54,
+    "bus_change": 26258.3
+  },
+  {
+    "name": 40,
+    "dr_trips_2013": "Tampa, FL",
+    "dr_trips_2012": 496000,
+    "dr_change": 457800,
+    "bus_trips_2013": 0.08,
+    "bus_trips_2012": 28206.05,
+    "bus_change": 26256.8
+  },
+  {
+    "name": 41,
+    "dr_trips_2013": "Virginia Beach, VA",
+    "dr_trips_2012": 346200,
+    "dr_change": 313400,
+    "bus_trips_2013": 0.1,
+    "bus_trips_2012": 15724.6,
+    "bus_change": 17843.2
+  },
+  {
+    "name": 42,
+    "dr_trips_2013": "Washington, DC",
+    "dr_trips_2012": 2947900,
+    "dr_change": 2977400,
+    "bus_trips_2013": -0.01,
+    "bus_trips_2012": 184024.56,
+    "bus_change": 181877.3
+  }
+]
