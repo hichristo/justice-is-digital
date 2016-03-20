@@ -310,7 +310,7 @@ ul{
   };
 
   //Load data and call bar chart function 
-    d3.csv("barsValues.csv", function(error,data){
+    d3.json("bardata.json", function(error,data){
         if(error){
           console.log(error);
         }
