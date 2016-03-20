@@ -71,6 +71,12 @@
                 return d.name;
             });
 
+        // Cool down initial animation
+        var k = 0;
+        while ((force.alpha() > 1e-2) && (k < 150)) {
+            force.tick(),
+            k = k + 1;
+        }
         force.on("tick", function() {
             link.attr("x1", function(d) {
                     return d.source.x;
@@ -115,6 +121,12 @@
                 if (d.group === 1) {
                     return "red";
                 }
+                else if (d.group === 2) {
+                    return "orange";
+                }
+                else if (d.group === 3) {
+                    return "teal";
+                }
                 return color(d.group);
             })
             .call(force.drag);
@@ -123,7 +135,7 @@
         // Append the labels to each group
         var labels = gnodes.append("text")
             .text(function(d) {
-                return d.name;
+                return d.name + "-" + d.group;
             })
             .style("font-family", function() {
                 return "sans-serif";
