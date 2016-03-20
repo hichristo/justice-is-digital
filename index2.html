@@ -42,8 +42,7 @@
     <script src="semantic/components/search.js"></script>
 
 
-
-
+    
 
 
 
@@ -74,12 +73,27 @@
                             .dropdown()
                     ;
 
-//                    $.ajax({
-//                        type: "GET",
-//                        url: "http://localhost:5000/caselist.txt",
-//                        dataType: "text",
-//                        success: function(data) {processData(data);}
-//                    });
+                    var
+                            content = [
+                                {
+                                    person: '242349474',
+                                    offence: 'Stealing bird',
+                                },
+                                {
+                                    person: '242349474',
+                                    description: 'Stealing',
+                                }
+                            ]
+                            ;
+                    $('.ui.search')
+                            .search({
+                                source : content,
+                                searchFields   : [
+                                    'title'
+                                ],
+                                searchFullText: false
+                            })
+                    ;
 
                     $.get( "caselist.txt", function( data ) {
                         $( ".result" ).html( data );
@@ -181,25 +195,12 @@
 <div class="ui text container">
     <div class="ui header">LID</div>
     <select name="lid" class="ui fluid search dropdown">
-        <option value="">Skills</option>
-        <option value="angular">Angular</option>
-        <option value="css">CSS</option>
-        <option value="design">Graphic Design</option>
-        <option value="ember">Ember</option>
-        <option value="html">HTML</option>
-        <option value="ia">Information Architecture</option>
-        <option value="javascript">Javascript</option>
-        <option value="mech">Mechanical Engineering</option>
-        <option value="meteor">Meteor</option>
-        <option value="node">NodeJS</option>
-        <option value="plumbing">Plumbing</option>
-        <option value="python">Python</option>
-        <option value="rails">Rails</option>
-        <option value="react">React</option>
-        <option value="repair">Kitchen Repair</option>
-        <option value="ruby">Ruby</option>
-        <option value="ui">UI Design</option>
-        <option value="ux">User Experience</option>
+        <option value="person1">12605398</option>
+        <option value="person2">11804418</option>
+        <option value="empty">8916269</option>
+        <option value="empty">8896112</option>
+        <option value="empty">9000395</option>
+        <option value="empty">14027646</option>
     </select>
 
     <h4 class="ui horizontal header divider">
@@ -211,25 +212,12 @@
     <div class="ui text container">
         <div class="ui header">LID</div>
         <select name="lid" class="ui fluid search dropdown">
-            <option value="">Skills</option>
-            <option value="angular">Angular</option>
-            <option value="css">CSS</option>
-            <option value="design">Graphic Design</option>
-            <option value="ember">Ember</option>
-            <option value="html">HTML</option>
-            <option value="ia">Information Architecture</option>
-            <option value="javascript">Javascript</option>
-            <option value="mech">Mechanical Engineering</option>
-            <option value="meteor">Meteor</option>
-            <option value="node">NodeJS</option>
-            <option value="plumbing">Plumbing</option>
-            <option value="python">Python</option>
-            <option value="rails">Rails</option>
-            <option value="react">React</option>
-            <option value="repair">Kitchen Repair</option>
-            <option value="ruby">Ruby</option>
-            <option value="ui">UI Design</option>
-            <option value="ux">User Experience</option>
+            <option value="crime1">12605398</option>
+            <option value="crime2">11804418</option>
+            <option value="empty">8916269</option>
+            <option value="empty">8896112</option>
+            <option value="empty">9000395</option>
+            <option value="empty">14027646</option>
         </select>
     </div>
 </div>
