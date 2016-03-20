@@ -25,8 +25,8 @@
     var color = d3.scale.category20();
 
     var force = d3.layout.force()
-        .charge(-120)
-        .linkDistance(30)
+        .charge(-1200)
+        .linkDistance(40)
         .size([width, height]);
 
     var svg = d3.select("body").append("svg")
@@ -105,9 +105,9 @@
 
         var getRadius = function(d) {
             if (d.group == 1)
-                return radius = 10;
+                return radius = 20;
             else
-                return radius = 5;
+                return radius = 10;
         };
 
         // Add one circle in each group
@@ -140,7 +140,7 @@
                 return "sans-serif";
             })
             .style("font-size", function() {
-                return "0.2em";
+                return "0.6em";
             });
 
         force.on("tick", function() {
