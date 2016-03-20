@@ -33,14 +33,13 @@
         .attr("width", width)
         .attr("height", height);
 
-    d3.json("graphdatatim.json", function(error, graph) {
+    d3.json("graphdata2.json", function(error, graph) {
         if (error) throw error;
 
         force
             .nodes(graph.nodes)
             .links(graph.links)
             .linkStrength(function(link) {
-//                debugger;
                 if (link.source.group == 2 || link.target.group == 2) return link.value * 0.05;
                 else if(link.source.group == 3 || link.target.group == 3) return link.value * 0.01;
                 return 1;
@@ -135,7 +134,7 @@
         // Append the labels to each group
         var labels = gnodes.append("text")
             .text(function(d) {
-                return d.name + "-" + d.group;
+                return d.name;
             })
             .style("font-family", function() {
                 return "sans-serif";
