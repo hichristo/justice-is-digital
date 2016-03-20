@@ -10,8 +10,9 @@
     stroke: #999;
     stroke-opacity: .6;
 }
+
 .gnode test {
-	font-family: sans-serif;
+    font-family: sans-serif;
 }
 </style>
 
@@ -38,7 +39,14 @@
         force
             .nodes(graph.nodes)
             .links(graph.links)
+            .linkStrength(function(link) {
+//                debugger;
+                if (link.source.group == 2 || link.target.group == 2) return link.value * 0.05;
+                else if(link.source.group == 3 || link.target.group == 3) return link.value * 0.01;
+                return 1;
+            })
             .start();
+
 
         var link = svg.selectAll(".link")
             .data(graph.links)
@@ -91,7 +99,7 @@
             .classed('gnode', true);
 
         var getRadius = function(d) {
-            if(d.group == 1)
+            if (d.group == 1)
                 return radius = 10;
             else
                 return radius = 5;
@@ -100,11 +108,11 @@
         // Add one circle in each group
         var node = gnodes.append("circle")
             .attr("class", "node")
-            .attr("r", function(d){
+            .attr("r", function(d) {
                 return getRadius(d);
             })
             .style("fill", function(d) {
-                if(d.group === 1){
+                if (d.group === 1) {
                     return "red";
                 }
                 return color(d.group);
@@ -118,10 +126,10 @@
                 return d.name;
             })
             .style("font-family", function() {
-            	return "sans-serif";
+                return "sans-serif";
             })
             .style("font-size", function() {
-                return "0.3em";
+                return "0.2em";
             });
 
         force.on("tick", function() {
