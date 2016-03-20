@@ -40,6 +40,10 @@
             .nodes(graph.nodes)
             .links(graph.links)
             .linkStrength(function(link) {
+                if(link.source.name == "8792255|TH68010|01SEP2010|334") {
+                    link.source.px = 450;
+                    link.source.py = 250;
+                }
                 if (link.source.group == 2 || link.target.group == 2) return link.value * 0.05;
                 else if(link.source.group == 3 || link.target.group == 3) return link.value * 0.01;
                 return 1;
