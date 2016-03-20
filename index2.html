@@ -38,7 +38,6 @@
     <script src="semantic/components/form.js"></script>
     <script src="semantic/components/dropdown.js"></script>
     <script src="semantic/components/transition.js"></script>
-    <script src="semantic/components/button.js"></script>
     <script src="semantic/components/api.js"></script>
     <script src="semantic/components/search.js"></script>
 
@@ -75,6 +74,18 @@
                             .dropdown()
                     ;
 
+//                    $.ajax({
+//                        type: "GET",
+//                        url: "http://localhost:5000/caselist.txt",
+//                        dataType: "text",
+//                        success: function(data) {processData(data);}
+//                    });
+
+                    $.get( "caselist.txt", function( data ) {
+                        $( ".result" ).html( data );
+                        //alert( "Load was performed." );
+                    });
+
                 })
         ;
 
@@ -86,7 +97,7 @@
         };
         $('.getcasebutton')
                 .api({
-                    url: '/caselist.json'
+                    url: 'caselist.txt'
                 })
         ;
         $.fn.api.settings.api.search = '/search/?query={value}';
@@ -96,6 +107,35 @@
                     stateContext : '.ui.input'
                 })
         ;
+
+
+
+//        $.get('caselist.txt', function(data) {
+//            for (i = 0; i < data.length; i++) {
+//                text += data[i] + "<br>";
+//            }
+//        }, 'text');
+
+        function processData(allText) {
+            var record_num = 3;  // or however many elements there are in each row
+            var allTextLines = allText.split(/\r\n|\n/);
+            var entries = allTextLines[0].split(',');
+            var lines = [];
+
+            var headings = entries.splice(0,record_num);
+            while (entries.length>0) {
+                var tarr = [];
+                for (var j=0; j<record_num; j++) {
+                    tarr.push(headings[j]+":"+entries.shift());
+                }
+                lines.push(tarr);
+            }
+            alert(lines);
+        }
+
+
+
+
     </script>
 
 </head>
