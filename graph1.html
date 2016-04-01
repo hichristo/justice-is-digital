@@ -15,9 +15,16 @@
     font-family: sans-serif;
     body {}
 }
+.footer {
+	display: block;
+}
+#graph {
+	display: block;
+}
 </style>
 
 <body>
+	<div id="graph"></div>
     <script src="//d3js.org/d3.v3.min.js"></script>
     <script>
     var width = 960,
@@ -30,7 +37,7 @@
         .linkDistance(40)
         .size([width, height]);
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#graph").append("svg")
         .attr("width", width)
         .attr("height", height);
 
@@ -173,3 +180,17 @@
     });
     </script>
 
+	<div class="footer">
+		0 : 8991549|TH68010|01OCT2010 - duration = 212<br />
+		1 : 8770073|TH68010|01OCT2010 : 0.34391 - duration = 212<br />
+		2 : 8658494|TH68010|01OCT2011 : 0.07657 - duration = 305<br />
+		3 : 8928900|TH68010|01JUL2011 : 0.0764 - duration = 245<br />
+		4 : 8770328|TH68010|01AUG2010 : 0.06517 - duration = 184<br />
+		5 : 8696114|TH68010|01APR2011 : 0.06235 - duration = 214<br />
+		6 : 11023674|TH68010|01AUG2010 : 0.06093 - duration = 153<br />
+		7 : 8856667|TH68010|01MAY2011 : 0.05619 - duration = 92<br />
+		8 : 8765615|TH68010|01AUG2010 : 0.05534 - duration = 245<br />
+		9 : 8778351|TH68010|01APR2012 : 0.04561 - duration = 182<br />
+		10 : 8894055|TH68010|01APR2011 : 0.04004 - duration = 120<br />
+		Prediction:    211
+	</div>

@@ -14,9 +14,16 @@
 .gnode test {
     font-family: sans-serif;
 }
+.footer {
+	display: block;
+}
+#graph {
+	display: block;
+}
 </style>
 
 <body>
+	<div id="graph"></div>
     <script src="//d3js.org/d3.v3.min.js"></script>
     <script>
     var width = 960,
@@ -29,7 +36,7 @@
         .linkDistance(40)
         .size([width, height]);
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#graph").append("svg")
         .attr("width", width)
         .attr("height", height);
 
@@ -167,3 +174,18 @@
 
     });
     </script>
+
+	<div class="footer">
+		0 : 8811230|PU86003|01JUL2011 - duration = 183<br />
+		1 : 8874569|PU86003|01JUL2012 : 0.22738 - duration = 184<br />
+		2 : 9801563|PU86003|01SEP2011 : 0.16488 - duration = 123<br />
+		3 : 8915267|PU86003|01SEP2011 : 0.12695 - duration = 153<br />
+		4 : 8802941|PU86003|01APR2010 : 0.08081 - duration = 334<br />
+		5 : 8840333|PU86003|01JAN2012 : 0.07678 - duration = 152<br />
+		6 : 8972874|PU86003|01JAN2011 : 0.06855 - duration = 212<br />
+		7 : 8868932|PU86003|01SEP2011 : 0.06451 - duration = 153<br />
+		8 : 8857124|PU86003|01APR2010 : 0.05765 - duration = 122<br />
+		9 : 8825434|PU86003|01JUL2011 : 0.05716 - duration = 245<br />
+		10 : 8932812|PU86003|01JUN2010 : 0.05445 - duration = 123<br />
+		Prediction:    201
+	</div>
